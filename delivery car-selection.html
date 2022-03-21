@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Select your fleet</title>
+<link rel="stylesheet" href="assets/owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="assets/css/theme.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+
+</head>
+<body>
+<div class="section header">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-2 col-sm-2 col-4 logoweb"><a href="#"><img src="assets/images/logo-nlco-white.svg" alt=""></a></div>
+			<div class="col-md-10 col-sm-10 col-8">
+				<div class="button-block">
+					<a href="#" class="button managebooking"><img src="assets/images/icon-car-top_white-01.svg" alt=""><span>Manage Booking</span></a>
+					<div class="dropdown_userlogin">
+						<a href="javascrip:void(0);" class="button userbutton"><img src="assets/images/icon-user-profile_white-01.svg" alt=""><span>User Login</span></a>
+						<ul class="dropdownlogin">
+							<li><a href="#">My Profile</a></li>
+							<li><a href="#">Booking</a></li>
+							<li><a href="#">Contacts</a></li>
+							<li><a href="#">Membership</a></li>
+							<li><a href="#">Inquires</a></li>
+							<li><a href="#">Log Out</a></li>
+						</ul>
+					</div>
+					<!-- <a href="#" class="button userbutton"><img src="assets/images/icon-user-profile.svg" alt=""><span>User Login</span></a> -->
+					<a href="#" class="button language-button">العربية</a>
+					<div class="menu-button"><img src="assets/images/burger-menu.svg" alt=""></div>
+				</div>
+				<div class="menu-area">
+					<div class="menu-close"><img src="assets/images/close-icon.svg" alt=""></div>
+					<div class="top-menu">
+						<ul>
+							<li><a href="#">about Us</a></li>
+							<li><a href="#">Booking</a></li>
+							<li><a href="#">our fleet</a></li>
+							<li><a href="#">branches</a></li>
+							<li><a href="#">services</a></li>
+							<li><a href="#">promotions</a></li>
+							<li><a href="#">Contact us</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- /. header -->
+<!-- /. HEADER ------->
+
+<div class="section">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8 col-sm-10 col-12">
+				<div class="form-steps">
+					<div class="row justify-content-center">
+						<div class="col-lg-2 col-md-3 col-sm-3 col-4">
+							<div class="form-step"> <span class="step-number tickmark-check"><img src="assets/images/checkmark.svg" alt=""></span><span class="step-title">Select Fleet</span></div>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-3 col-4">
+							<div class="form-step"> <span class="step-number">2</span><span class="step-title">Verify Booking</span></div>
+						</div>
+					
+						<div class="col-lg-2 col-md-3 col-sm-3 col-4">
+							<div class="form-step"> <span class="step-number">3</span><span class="step-title">Location Details</span></div>
+						</div>
+					</div>
+				</div>				
+			</div>
+			<div class="col-12">
+				<div class="form-head-box">
+					<h6>Pick-up : <span>13 Oct 2021  5PM</span></h6>
+					<h6>Drop-off : <span>13 Oct 2021  5PM</span></h6>
+					<h6>Booking Method : <span>Delivery</span></h6>
+				</div>
+				<div class="form-box">
+					<div class="row">
+						<div class="inputblock">
+							<label for="">Manufacturer:</label> <select name="" id=""><option value="">Cheverlote</option></select>
+						</div>
+						<div class="inputblock">
+							<label for="">Model:</label> <select name="" id=""><option value="">2022</option></select>
+						</div>
+						<div class="inputblock">
+							<label for="">year:</label> <select name="" id=""><option value="">2021</option></select>
+						</div>
+						<div class="inputblock">
+							<label for="">Category:</label> <select name="" id=""><option value="">SUV</option></select>
+						</div>
+						<div class="inputblock">
+							<label for="">Delivery Option:</label> <select name="" id=""><option value="">Deliver the car to my location</option>
+							<option value="">Collect the car from my location</option>
+							<option value="">Two ways</option>
+							
+							</select>
+							
+						</div>
+						<div class="inputblock">
+							<label for="">Sort by:</label> 
+							<div class="checkbox-outer">
+								<div class="checkbutton" id="button-1">
+									<input type="checkbox" class="checkbox">
+									<div class="knobs"></div><div class="layer"></div>
+								</div>
+							</div>	
+						</div>
+						<div class="inputblock pricerange-block">
+							<label class="full-block" for="">Price:</label> 
+							<div id="price-slider">
+							    <div class="price-value-block"><input type="text" id="amount-min" readonly><span>-</span><input type="text" id="amount-max" readonly ></div>
+							  	<div id="slider-range"></div>
+							</div>
+
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="register-now-block">
+					<div class="row align-items-center">
+						<div class="col-md-5 col-sm-8 col-12">
+							<h2>register now</h2>
+							<h5>To get Discounts  & Pay Online to get <br>Online Payment Discount</h5>
+						</div>
+						<div class="col-md-3 col-sm-4 col-12"><a href="#" class="button" style="border-radius:20px;">Sign In</a></div>
+						<div class="col-md-4 col-sm-12 col-12"><div class="register-image"><img src="assets/images/signin-cars.png" alt=""></div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section carslisting">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-sm-12 col-12">
+				<div class="full-block">
+					<div class="row row-eq-height">
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-30p">
+							<div class="car-block">
+								<div class="image">
+									<img src="assets/images/cars1.png" alt="">
+								
+								</div>
+								<div class="carname">
+									<h6>Small Sedan</h6>
+									<h3>Chevrolet Spark<span>2020</span></h3>
+									<h5>Or Similar</h5>
+								</div>
+								<div class="price">
+									<div class="orginalprice">
+										<span class="priceamount">90</span> 
+										<span class="pricesymbol">sar</span> 
+										<span class="pricefor">Price for 1 Day(a)</span>
+									</div>
+								</div>
+								<div class="feature">
+									<span><img src="assets/images/icon-feature-user.svg" alt=""> 4 Seats</span>
+									<span><img src="assets/images/icon-feature-case.svg" alt=""> 1 Luggage(s)</span>
+									<span><img src="assets/images/icon-feature-door.svg" alt=""> 4 Doors</span>
+									<span><img src="assets/images/icon-feature-ac.svg" alt=""> AC</span>
+									<span><img src="assets/images/icon-feature-service.svg" alt=""> Auto</span>
+								</div>
+								<a href="#" class="button">Book Now</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-30p">
+							<div class="car-block">
+								<div class="image">
+									<img src="assets/images/cars1.png" alt="">
+									<div class="badge"><img src="assets/images/badge-offer.png" alt="offer badge"/></div>
+								</div>
+								<div class="carname">
+									<h6>Small Sedan</h6>
+									<h3>Chevrolet Spark<span>2020</span></h3>
+									<h5>Or Similar</h5>
+								</div>
+								<div class="price hasoffer">
+									<span class="cutprice">120 SAR</span>
+									<div class="orginalprice">
+										<span class="priceamount">90</span> 
+										<span class="pricesymbol">sar</span> 
+										<span class="pricefor">Price for 1 Day(a)</span>
+									</div>
+								</div>
+
+								<div class="feature">
+									<span><img src="assets/images/icon-feature-user.svg" alt=""> 4 Seats</span>
+									<span><img src="assets/images/icon-feature-case.svg" alt=""> 1 Luggage(s)</span>
+									<span><img src="assets/images/icon-feature-door.svg" alt=""> 4 Doors</span>
+									<span><img src="assets/images/icon-feature-ac.svg" alt=""> AC</span>
+									<span><img src="assets/images/icon-feature-service.svg" alt=""> Auto</span>
+								</div>
+								<a href="#" class="button">Book Now</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-30p">
+							<div class="car-block">
+								<div class="image">
+									<img src="assets/images/cars1.png" alt="">
+									<div class="badge"><img src="assets/images/badge-offer.png" alt="offer badge"/></div>
+								</div>
+								<div class="carname">
+									<h6>Small Sedan</h6>
+									<h3>Chevrolet Spark<span>2020</span></h3>
+									<h5>Or Similar</h5>
+								</div>
+								<div class="price hasoffer">
+									<span class="cutprice">120 SAR</span>
+									<div class="orginalprice">
+										<span class="priceamount">90</span> 
+										<span class="pricesymbol">sar</span> 
+										<span class="pricefor">Price for 1 Day(a)</span>
+									</div>
+								</div>
+								<div class="feature">
+									<span><img src="assets/images/icon-feature-user.svg" alt=""> 4 Seats</span>
+									<span><img src="assets/images/icon-feature-case.svg" alt=""> 1 Luggage(s)</span>
+									<span><img src="assets/images/icon-feature-door.svg" alt=""> 4 Doors</span>
+									<span><img src="assets/images/icon-feature-ac.svg" alt=""> AC</span>
+									<span><img src="assets/images/icon-feature-service.svg" alt=""> Auto</span>
+								</div>
+								<a href="#" class="button">Book Now</a>
+							</div>
+						</div>
+						
+						
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-30p">
+							<div class="car-block">
+								<div class="image">
+									<img src="assets/images/cars1.png" alt="">
+									<div class="badge"><img src="assets/images/badge-offer.png" alt="offer badge"/></div>
+								</div>
+								<div class="carname">
+									<h6>Small Sedan</h6>
+									<h3>Chevrolet Spark<span>2020</span></h3>
+									<h5>Or Similar</h5>
+								</div>
+								<div class="price hasoffer">
+									<span class="cutprice">120 SAR</span>
+									<div class="orginalprice">
+										<span class="priceamount">90</span> 
+										<span class="pricesymbol">sar</span> 
+										<span class="pricefor">Price for 1 Day(a)</span>
+									</div>
+								</div>
+								<div class="feature">
+									<span><img src="assets/images/icon-feature-user.svg" alt=""> 4 Seats</span>
+									<span><img src="assets/images/icon-feature-case.svg" alt=""> 1 Luggage(s)</span>
+									<span><img src="assets/images/icon-feature-door.svg" alt=""> 4 Doors</span>
+									<span><img src="assets/images/icon-feature-ac.svg" alt=""> AC</span>
+									<span><img src="assets/images/icon-feature-service.svg" alt=""> Auto</span>
+								</div>
+								<a href="#" class="button">Book Now</a>
+							</div>
+						</div>
+						
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-30p">
+							<div class="car-block">
+								<div class="image">
+									<img src="assets/images/cars1.png" alt="">
+									<div class="badge"><img src="assets/images/badge-offer.png" alt="offer badge"/></div>
+								</div>
+								<div class="carname">
+									<h6>Small Sedan</h6>
+									<h3>Chevrolet Spark<span>2020</span></h3>
+									<h5>Or Similar</h5>
+								</div>
+								<div class="price hasoffer">
+									<span class="cutprice">120 SAR</span>
+									<div class="orginalprice">
+										<span class="priceamount">90</span> 
+										<span class="pricesymbol">sar</span> 
+										<span class="pricefor">Price for 1 Day(a)</span>
+									</div>
+								</div>
+								<div class="feature">
+									<span><img src="assets/images/icon-feature-user.svg" alt=""> 4 Seats</span>
+									<span><img src="assets/images/icon-feature-case.svg" alt=""> 1 Luggage(s)</span>
+									<span><img src="assets/images/icon-feature-door.svg" alt=""> 4 Doors</span>
+									<span><img src="assets/images/icon-feature-ac.svg" alt=""> AC</span>
+									<span><img src="assets/images/icon-feature-service.svg" alt=""> Auto</span>
+								</div>
+								<a href="#" class="button">Book Now</a>
+							</div>
+						</div>
+						
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-30p">
+							<div class="car-block">
+								<div class="image">
+									<img src="assets/images/cars1.png" alt="">
+									<div class="badge"><img src="assets/images/badge-offer.png" alt="offer badge"/></div>
+								</div>
+								<div class="carname">
+									<h6>Small Sedan</h6>
+									<h3>Chevrolet Spark<span>2020</span></h3>
+									<h5>Or Similar</h5>
+								</div>
+								<div class="price hasoffer">
+									<span class="cutprice">120 SAR</span>
+									<div class="orginalprice">
+										<span class="priceamount">90</span> 
+										<span class="pricesymbol">sar</span> 
+										<span class="pricefor">Price for 1 Day(a)</span>
+									</div>
+								</div>
+								<div class="feature">
+									<span><img src="assets/images/icon-feature-user.svg" alt=""> 4 Seats</span>
+									<span><img src="assets/images/icon-feature-case.svg" alt=""> 1 Luggage(s)</span>
+									<span><img src="assets/images/icon-feature-door.svg" alt=""> 4 Doors</span>
+									<span><img src="assets/images/icon-feature-ac.svg" alt=""> AC</span>
+									<span><img src="assets/images/icon-feature-service.svg" alt=""> Auto</span>
+								</div>
+								<a href="#" class="button">Book Now</a>
+							</div>
+						</div>
+						
+						
+						
+					</div>
+				</div>
+				<div class="full-block text-center ptb-30p"><a href="#">Load More</a></div>
+			</div>
+			<div class="col-md-4 col-sm-12 col-12">
+				<div class="booking-summary-thumb-head"><h4>Booking Summary</h4></div>
+				<div class="booking-summary-thumb">
+					
+					<h5>Vehicle Details</h5>
+					<div class="image-block">
+						<img src="assets/images/cars1.png" alt="">
+					</div>
+					<div class="content-block">
+						<h6>Booking Method<br><span>Delivery </span></h6>
+						<h6>Pick-up<br><span>26 Sep 2021  |  11:00 PM </span></h6>
+						<h6>Drop-off<br><span>26 Sep 2021  |  11:00 PM </span></h6>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- /.FOOTER ------->
+<div class="section footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="footer-block">
+					<div class="footer-menu">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Booking</a></li>
+							<li><a href="#">our fleets</a></li>
+							<li><a href="#">Branches</a></li>
+							<li><a href="#">promotion</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="full-block">
+						<a href="tel:+966594678252" class="phone-bottom">+966 59 467 8252</a>
+						<div class="social-menu"><ul>
+							<li><a href="#"><img src="assets/images/social-icon-facebook.svg" alt=""></a></li>
+							<li><a href="#"><img src="assets/images/social-icon-instagram.svg" alt=""></a></li>
+							<li><a href="#"><img src="assets/images/social-icon-whatsapp.svg" alt=""></a></li>
+						</ul></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="section footer-text">
+	<div class="container">
+	<div class="row">
+		<div class="col-12"><p>Copyright © 2021-2022 nlco – Saudi Arabia. All rights reserved.</p></div>
+	</div>
+	</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/owlcarousel/owl.carousel.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script type="text/javascript">
+$(function() {
+$( "#slider-range" ).slider({
+  range: true,
+  min: 0,
+  max: 20000,
+  values: [ 0, 10000 ],
+  animate:true,
+  step:5,
+  slide: function( event, ui ) {
+    $( "#amount-min" ).val( "" + ui.values[ 0 ] + " SAR");
+    $( "#amount-max" ).val( "" + ui.values[ 1 ] + " SAR");
+  }
+});
+
+$( "#amount-min" ).val("" + $( "#slider-range" ).slider( "values", 0 ) + " SAR");
+$( "#amount-max" ).val( "" + $( "#slider-range" ).slider( "values", 1 ) + " SAR");
+});
+</script>
+
+</body>
+</html>
