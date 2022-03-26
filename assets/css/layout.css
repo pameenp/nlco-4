@@ -376,9 +376,10 @@ border-top-right-radius: 30px;
 
 .car-block {
 	width:100%; float:left; min-height: 100%;
-	margin:0; padding:10px;
+	margin:0; padding:10px 10px 50px;
 	background:#f7f7f7; border:1px solid #cbcbcb;
-	border-radius:3px; }
+	border-radius:3px; 
+  position:relative; }
 .car-block .image { 
 	width:100%; position: relative; }
 .car-block .badge { 
@@ -434,9 +435,9 @@ border-top-right-radius: 30px;
 	height:11px; margin:0; padding:0; }
 
 
-
 .car-block a.button { 
-	width:100%; font-weight:400; font-size:15px;
+	position: absolute; bottom:10px; left:5%;
+	width:90%; font-weight:400; font-size:15px;
 	font-family: 'Frutiger LT Arabic 55 Roman';
 	background:#002d3d; border:none; }
 
@@ -846,10 +847,11 @@ border-top-right-radius: 30px;
   background:#50505074; text-align:center; }
 .opt-popupblock .otp-block {
 	display: inline-block; top:20vh;
-	width:440px; min-height:40vh; text-align: center; max-width:100%;
+	width:480px; text-align: center; max-width:100%;
 	margin:20vh 0; padding:15px 15px 30px;
 	border-radius: 30px;
 	background:#fff; }
+.opt-popupblock img { width:80%; }
 .opt-popupblock a.button { 
 	margin:0; padding:15px 18px 13px;
 	text-transform: uppercase; font-weight:normal; }
@@ -889,12 +891,29 @@ border-top-right-radius: 30px;
 	text-transform:uppercase; }
 
 
+.popupContainer {
+	display: inline-block; 
+	width:360px; text-align: center;
+	margin:30px 0; padding:30px 55px;
+	background:#fff; border-radius: 30px;
+	-webkit-box-shadow: 0px 0px 20px 0px #0005;
+	-moz-box-shadow: 0px 0px 20px 0px #0005;
+	box-shadow: 0px 0px 20px 0px #0005; 
+}
+
+.paymentPopup {}
+.paymentPopupImage {}
+.paymentPopupImage img { width:100px; }
+
+.paymentPopup a.button {
+	width:100%; border-radius:10px; }
+
 
 
 
 /* ---------------------------------------*/
 .customer-location h5 {
-	width:100%; float:left;
+	width:100%; float:left; border-top:1px solid #e3e1e2;
 	margin:20px 0 10px; padding:10px 0 0 0; font-size:16px; color:#000; }
 .customer-location h6 { 
 	margin:0 0 10px; padding:0; font-weight:normal;
@@ -907,6 +926,7 @@ border-top-right-radius: 30px;
 .googlemaparea p { margin:0; padding:0; }
 .googlemaparea a.button { float:right; color:#fff; background:#989493; border-color:#989493; }
 
+a.proceedtopay, a.backbutton  { border-radius: 8px; }
 .proceedtopay, .backbutton { 
 	width:100%; margin:10px 0 30px !important; padding:12px 20px !important; float:left;
 	text-align:center; display:table; }
@@ -1002,5 +1022,61 @@ ul.dropdownlogin li a {
 .dropdownlogin-open { 
 	display: inline-block; height:200px !important; padding:20px !important; transition:1s;color:#666; }
 
+
+
+/* BOOKING DETAIL FORM PAGE ----------------------------------*/
+.booking-detail-form {}
+.booking-detail-form h5 {
+	margin:0; padding:0;
+	font-size:20px; font-weight:400; color:#292929;
+}
+.booking-detail-form label {
+	width:100%; float:left; padding:0; margin:0;
+}
+.booking-detail-form input[type="text"],
+.booking-detail-form input[type="email"],
+.booking-detail-form input[type="tel"],
+.booking-detail-form select,
+.booking-detail-form textarea {
+	background: #efefef; border:1px solid #afafaf;
+	border-radius:3px;
+}
+.booking-detail-form input[type="submit"], 
+.booking-detail-form button {
+	margin:20px 0;
+	width:100%; text-transform: capitalize;
+}
+.booking-detail-form button {
+	display:table; 
+	cursor: pointer; padding: 0 20px; min-height: 40px; 
+	font-size: 1.2em; width: 100%;
+  text-align: center; vertical-align: middle; 
+  background: #fff; border: 1px solid #082b34;
+  border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; }
+.booking-detail-form button img,
+.booking-detail-form button span { 
+	color#082b34;
+	float:none; vertical-align: middle; text-align: center;  }
+.booking-detail-form button img { height:20px; margin:0; }
+
+
+.booking-detail-form .register_phone {
+	width: 100%; height: 48px; float: left; clear: both;
+	margin: 0 0 20px; padding: 0;
+	border-radius: 6px; overflow: hidden;
+ 	background: #efefef; border:1px solid #afafaf; 
+}
+.booking-detail-form .register_phone input { 
+	float:left; clear: none; 
+	margin:0; padding: 0; background:none;
+	border: none; border-radius:0px; }
+.booking-detail-form .register_phone input:first-child {
+	width:15%; height:30px; margin:8px 0 0 0; padding:0; 
+	float:left; text-align: center; font-weight:600;
+	background:none; color:#333; border-right:1px solid #999; 
+}
+.register_phone input:last-child {
+	width:85%; margin:0; padding:0 10px;
+}
 
 
