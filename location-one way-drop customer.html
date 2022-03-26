@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Location details</title>
+<link rel="stylesheet" href="assets/owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="assets/css/theme.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+
+</head>
+<body>
+<div class="section header">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-2 col-sm-2 col-4 logoweb"><a href="#"><img src="assets/images/logo-nlco-white.svg" alt=""></a></div>
+			<div class="col-md-10 col-sm-10 col-8">
+				<div class="button-block">
+					<a href="#" class="button managebooking"><img src="assets/images/icon-car-top_white-01.svg" alt=""><span>Manage Booking</span></a>
+					<div class="dropdown_userlogin">
+						<a href="javascrip:void(0);" class="button userbutton"><img src="assets/images/icon-user-profile_white-01.svg" alt=""><span>User Login</span></a>
+						<ul class="dropdownlogin">
+							<li><a href="#">My Profile</a></li>
+							<li><a href="#">Bookings</a></li>
+							<li><a href="#">Contacts</a></li>
+							<li><a href="#">Membership</a></li>
+							<li><a href="#">Inquires</a></li>
+							<li><a href="#">Log Out</a></li>
+						</ul>
+					</div>
+					<!-- <a href="#" class="button userbutton"><img src="assets/images/icon-user-profile.svg" alt=""><span>User Login</span></a> -->
+					<a href="#" class="button language-button">العربية</a>
+					<div class="menu-button"><img src="assets/images/burger-menu.svg" alt=""></div>
+				</div>
+				<div class="menu-area">
+					<div class="menu-close"><img src="assets/images/close-icon.svg" alt=""></div>
+					<div class="top-menu">
+						<ul>
+							<li><a href="#">about Us</a></li>
+							<li><a href="#">Booking</a></li>
+							<li><a href="#">our fleet</a></li>
+							<li><a href="#">branches</a></li>
+							<li><a href="#">services</a></li>
+							<li><a href="#">promotions</a></li>
+							<li><a href="#">Contact us</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- /. header -->
+<!-- /. HEADER ------->
+
+<div class="section">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8 col-sm-10 col-12">
+				<div class="form-steps">
+					<div class="row justify-content-center">
+						<div class="col-lg-2 col-md-3 col-sm-3 col-4">
+							<div class="form-step"> <span class="step-number tickmark-check"><img src="assets/images/checkmark.svg" alt=""></span><span class="step-title">Select Fleet</span></div>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-3 col-4">
+							<div class="form-step"> <span class="step-number tickmark-check"><img src="assets/images/checkmark.svg" alt=""></span><span class="step-title">Verify Booking</span></div>
+						</div>
+					
+						<div class="col-lg-2 col-md-3 col-sm-3 col-4">
+							<div class="form-step"> <span class="step-number">3</span><span class="step-title">Location Details</span></div>
+						</div>
+					</div>
+				</div>				
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+
+<div class="section carslisting">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-sm-12 col-12 customer-location">
+				
+				
+				
+				<div class="full-block mb-30p">
+					<h5>Pick up location</h5>
+				
+					<p>Click (My Location) to choose the current location.</p>
+					<a href="#" class="button">My Location</a>
+				</div>
+					<div class="googlemaparea">
+						<div class="row align-items-center">
+							<div class="col-12"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722504.3860201286!2d51.71183150969869!3d24.337497293019872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e48dfb1ab12bd%3A0x33d32f56c0080aa7!2sUnited%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1639075472325!5m2!1sen!2sin" style="width: 100%; height: 350px; float: left; border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+							<div class="col-md-4 col-sm-6 col-12"><p><strong>Latitude: </strong>23.424076</p></div>
+							<div class="col-md-4 col-sm-6 col-12"><p><strong>Longitude: </strong>53.847816</p></div>
+							<div class="col-md-4 col-sm-4 col-12"><a href="#" class="button">Save Location</a></div>
+						</div>
+					</div>
+
+					<div class="full-block mb-30p">
+					<h5>Drop off branch</h5>
+						
+						 <div class="form-group">
+    <!--<label for="exampleFormControlSelect1">Select branch</label>-->
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Select branch</option>
+      <option>Aldhabab - Prince Abdulaziz Ibn Jalawi St.</option>
+      <option>Kwuit Circle - Prince Fahad Al Saud St.</option>
+      <option>Muruj - Prince Turki Al Thani St.</option>
+    </select>
+  </div>
+				
+					
+				</div>
+					<div class="full-block">
+						<h6>Address information</h6>
+						<textarea name="" id="" cols="30" rows="10"></textarea>
+					</div>
+					<div class="full-block">
+						<div class="row">
+							<div class="col-md-4 col-sm-4 col-4"><a href="" class="button backbutton"><img src="assets/images/back-icon-color.svg" alt=""><span>Back</span></a></div>
+							<div class="col-md-8 col-sm-8 col-8"><a href="" class="button proceedtopay"><img src="assets/images/security-badge.svg" alt=""><span>Proceed to pay</span></a></div>
+						</div>	
+					</div>
+				
+			</div>
+			<div class="col-md-4 col-sm-12 col-12">
+				<div class="booking-summary-thumb-head"><h4>Booking Summary</h4></div>
+				<div class="booking-summary-thumb">
+					<h5>Vehicle Details</h5>
+					<div class="image-block">
+						<img src="assets/images/cars1.png" alt="">
+					</div>
+					<div class="content-block">
+						<h6>Booking method<br><span>Delivery </span></h6>
+						<h6>Pick-up<br><span>26 Sep 2021  |  11:00 PM </span></h6>
+						<h6>Drop-off<br><span>27 Sep 2021  |  11:00 PM </span></h6>
+						<h6>Car model<br><span>Chevrolet spark 2020 </span></h6>
+					</div>
+
+					<h5>Price Details</h5>
+					<div class="image-block">
+						<img src="assets/images/car-summery-price.png" alt="">
+					</div>
+					<div class="content-block">
+						<h6>Rental Charge (VAT not included)<br><span>390 SAR </span></h6>
+						<h6>Delivery Charge<br><span>20 SAR </span></h6>
+						<h6>Total Amount<br><span>410 SAR </span></h6>
+					
+					</div>
+					<h5>Personal Details</h5>
+					<div class="image-block">
+						<img src="assets/images/car-summery-user.png" alt="">
+					</div>
+					<div class="content-block">
+						<h6>Name<br><span>Mohammed Salah </span></h6>
+						<h6>Email<br><span>salah@gmail.com </span></h6>
+						<h6>Phone <br><span>0546 453 985 </span></h6>
+						<h6>ID number<br><span>6295793265 </span></h6>
+					</div>
+				</div><!-- /.booking summery thumb -->
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- /.FOOTER ------->
+<div class="section footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="footer-block">
+					<div class="footer-menu">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Booking</a></li>
+							<li><a href="#">our fleets</a></li>
+							<li><a href="#">Branches</a></li>
+							<li><a href="#">promotion</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="full-block">
+						<a href="tel:+966594678252" class="phone-bottom">+966 59 467 8252</a>
+						<div class="social-menu"><ul>
+							<li><a href="#"><img src="assets/images/social-icon-facebook.svg" alt=""></a></li>
+							<li><a href="#"><img src="assets/images/social-icon-instagram.svg" alt=""></a></li>
+							<li><a href="#"><img src="assets/images/social-icon-whatsapp.svg" alt=""></a></li>
+						</ul></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="section footer-text">
+	<div class="container">
+	<div class="row">
+		<div class="col-12"><p>Copyright © 2021-2022 nlco – Saudi Arabia. All rights reserved.</p></div>
+	</div>
+	</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/owlcarousel/owl.carousel.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script type="text/javascript">
+$(function() {
+$( "#slider-range" ).slider({
+  range: true,
+  min: 0,
+  max: 20000,
+  values: [ 0, 10000 ],
+  animate:true,
+  step:5,
+  slide: function( event, ui ) {
+    $( "#amount-min" ).val( "" + ui.values[ 0 ] + " SAR");
+    $( "#amount-max" ).val( "" + ui.values[ 1 ] + " SAR");
+  }
+});
+
+$( "#amount-min" ).val("" + $( "#slider-range" ).slider( "values", 0 ) + " SAR");
+$( "#amount-max" ).val( "" + $( "#slider-range" ).slider( "values", 1 ) + " SAR");
+});
+</script>
+
+</body>
+</html>
