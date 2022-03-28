@@ -921,8 +921,9 @@ border-top-right-radius: 30px;
 .customer-location p { font-size:13.5px; margin:0 0 20px; }
 .customer-location textarea { border:1px solid #cccccc; }
 
-.googlemaparea { width:100%; float:left; clear:both; margin:0 0 30px; }
-.googlemaparea iframe { margin-bottom:20px;}
+.googlemaparea { 
+	width:100%; float:left; clear:both; margin:0 0 30px; }
+.googlemaparea iframe { }
 .googlemaparea p { margin:0; padding:0; }
 .googlemaparea a.button { float:right; color:#fff; background:#989493; border-color:#989493; }
 
@@ -938,6 +939,12 @@ a.proceedtopay, a.backbutton  { border-radius: 8px; }
 	border-color:#082b34 !important;
 	background:#fff !important; color:#082b34 !important;
 }
+.map_ifram-container { position: relative; }
+.googlemaparea a.confirm_location { 
+	position: absolute; bottom:23px; right:80px; z-index: 20;
+  background:#ce132e !important; border-color:#ce132e; font-weight:400; }
+
+
 @media(max-width:767px){
 	.googlemaparea iframe { height:250px !important; }
 	.googlemaparea a.button { float:left; margin:10px 0 0 0;}
@@ -1078,5 +1085,129 @@ ul.dropdownlogin li a {
 .register_phone input:last-child {
 	width:85%; margin:0; padding:0 10px;
 }
+
+
+
+/* vehicle location ------------ */
+.vehicle_location {}
+.icon_title {  }
+.icon_title img { 
+	vertical-align: middle; display: inline-block; width: 30px; margin:0 10px 0 0; }
+.icon_title span { 
+	vertical-align: middle; display: inline-block; }
+
+
+.choose_pickup-drop {
+	width: 100%; float: left; clear: both;
+	margin:0 0 40px; padding:20px 25px;
+	border:2px solid #c09199; }
+.choose_pickup-drop h6 { font-size:13px; font-weight:600; margin:0; padding:0; }
+
+.choose_pickup-drop .pickup-drop-badge {
+	width: 100%; float: left; padding:10px; margin: 0 0 10px 0;
+	background:#ce142c; }
+.choose_pickup-drop .pickup-drop-badge img {
+	height:30px; float:left; }
+
+.car_direction {
+	float: right; } 
+.car_direction img { display: inline-block; margin:0 5px; }
+.car_direction .car_arrow { width:32px; }
+.car_direction .car_home { width:36px;}
+
+
+
+
+.radio_option-container {
+	width:100%; float:left; margin:0 0 20px;
+}
+.option_block { width:100%; float:left; margin:5px 0 0 0; }
+
+.option_block input[type="radio"] {
+	float:left; 
+  -webkit-appearance: none;
+  appearance: none;
+  margin:6px 5px 0 0;
+  font: inherit;
+  color: red;
+  width: 16px;
+  height: 16px;
+  border: 1px solid red;
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+
+  display: grid;
+  place-content: center;
+}
+
+.option_block input[type="radio"]::before {
+  content: "";
+  width:10px;
+  height:10px;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  /* Windows High Contrast Mode */
+  background-color: CanvasText;
+}
+.option_block input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+.option_block input[type="radio"]:focus {
+ 
+}
+
+
+
+
+
+
+
+
+.option_block select {
+	border:1px solid #ccc; outline:none; background:#eee;
+	border-radius: 2px; max-width:200px;
+	width:100%; height:25px; margin:0; padding:4px;
+}
+
+
+.radio_option .awaylocation {
+	
+}
+
+
+
+
+.clickdifferentlocation { 
+	font-weight:600; text-decoration: none; display: inline-block; margin:0 0 0 22px;}
+
+
+
+/* POPUPS *************** */
+.popbodyfix{ height:100vh; overflow: hidden; }
+.popUpContent {
+	width:100%; height:100vh;
+  position: fixed; height:100vh;
+  top: 0;
+  right: 0;
+  z-index: 3050;
+  display: none; opacity: 0;
+  overflow-x: hidden; text-align: center;
+  background: rgba(0,0,0,0.8);
+}.popupActive { display: block;  opacity: 1;  }
+.popContainer {
+	background: #fff;
+  position: relative; z-index: 3052;
+  width:1100px; max-width:80%; display: inline-block;
+  margin: 40px auto; padding:30px;
+  border:1px solid #a38e5d;
+}
+.popupClose {
+	position:absolute; top:0px; left:-30px; z-index: 3055;
+	background: #fff; cursor: pointer;
+	width:30px; height:30px; text-align:center;
+}.popupClose img { width:20px; margin-top:4px;}
+
 
 
