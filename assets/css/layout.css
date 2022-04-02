@@ -518,7 +518,7 @@ border-top-right-radius: 30px;
 }
 .form-box label { 
 	font-family: 'Frutiger LT Arabic 55 Roman'; font-weight:400;
-	font-size:15px; margin:5px 10px 0 0; padding:0;
+	font-size:15px; line-height:1.3em; margin:14px 10px 0 0; padding:0;
 	display: inline-block; vertical-align: middle; float:left; }
 .form-box select { 
 	width:140px;
@@ -639,11 +639,11 @@ border-top-right-radius: 30px;
 .pricerange-block label { margin:0 !important; }
 #price-slider { width:300px; max-width:100%; float:left; margin:5px 0 0; }
 #price-slider .price-value-block {
-	position:absolute; top:5px; right:28px; }
+	position:absolute; top:2px; right:28px; }
 #price-slider .price-value-block span { float:left; }
 #price-slider input { 
 	background:none; border:none; text-align: right;
-	display:inline-block; width:74px; height:auto; float:left; margin:0; padding:5px 5px; }
+	display:inline-block; width:74px; height:20px; float:left; margin:0; padding:0px 5px; }
 
 #slider-range { width:100%; float:left; margin:10px 0 0; }
 .ui-widget.ui-widget-content { 
@@ -1208,6 +1208,118 @@ ul.dropdownlogin li a {
 	background: #fff; cursor: pointer;
 	width:30px; height:30px; text-align:center;
 }.popupClose img { width:20px; margin-top:4px;}
+
+
+
+/* CAREERS *********************** */
+.career_page { padding:50px 0; margin:0; }
+.career_imagebox { margin-bottom:30px; }
+.career_form { margin-bottom:40px; }
+.career_form  h6 { 
+	color:#595959; margin:0 0 10px; padding:0;
+	text-align: left;  font-weight:600; text-transform: Capitalize; font-size:16px; }
+
+
+/*.career_form input[type="text"],
+.career_form input[type="tel"],
+.career_form input[type="email"],
+.career_form textarea,
+.career_form input[type="date"],
+.career_form select,
+.career_form input[type="file"] {
+	color:#b2b2b2; margin:0 0 30px; 
+	background-color:#efefef; 
+	border:2px solid #b1b1b1;
+}
+.career_form input[type="text"],
+.career_form input[type="tel"],
+.career_form input[type="email"],
+.career_form textarea {
+	padding:15px; border-radius:5px;
+}*/
+.career_form input[type="text"],
+.career_form input[type="tel"],
+.career_form input[type="email"],
+.career_form textarea,
+.career_form input[type="date"],
+.career_form select,
+.career_form input[type="file"] {
+background: #efefef;
+border: 1px solid #afafaf;
+border-radius: 3px;
+}
+
+.career_form ::placeholder { color:#b2b2b2; opacity:1; }
+.career_form a.addbutton { 
+	margin:0; padding:10px 20px;
+	display: inline-block; float:right; 
+	color:#888; text-decoration: none; font-weight:600;
+	text-transform: uppercase; line-height:1em;
+  background:#fff; border:2px solid #d3d3d3;
+  border-radius:3px; }
+.career_form input[type="submit"],
+.career_form button {
+	font-family: 'Frutiger LT Arabic 55 Roman';
+	 width:180px; font-weight:normal;
+}
+.career_form select {
+	
+}
+.career_form .upload_field span { 
+	font-size:12px; font-weight:400; font-style: italic; color:#666; }
+.career_form input[type="file"] {
+	width:100%; margin:0;
+	padding:10px; border-radius:5px;
+	background:#efefef url('../images/upload_arrow.svg') no-repeat center right 10px;
+	background-size:20px;
+}
+
+
+.mail_sucess_box {
+	width:100%; float:left; margin:10vh 0; padding:0;
+	text-align: center; }
+.mail_sucess_box img {
+	max-width:60px; display:inline-block; }
+.mail_sucess_box h4 { color:#44aa00; text-transform: uppercase; }
+.mail_sucess_box p { font-size:15px; }
+
+.career_success_box,
+.contact_success_box {
+	margin-right:auto; margin-left:auto; float:none;
+}
+.career_success_box img,
+.contact_success_box img {}
+
+
+.contact_info-blocks { margin-bottom:20px; }
+.contact_info-block {
+	width:100%; float:left; margin:0 0 20px; padding:0; }
+.contact_info-block h6 { 
+	margin:0; padding:0; line-height:1.2em;
+	font-size:20px; font-weight:normal; color:#585858; }
+.contact_info-block p { 
+	font-size:13px; margin:0; padding:0; }
+.contact_info-block p a { color:#585858; text-decoration: none; }
+
+
+.contact_form { margin-bottom:30px; }
+.contact_form h4 { }
+.contact_form input[type="text"],
+.contact_form input[type="tel"],
+.contact_form input[type="email"],
+.contact_form textarea,
+.contact_form input[type="date"],
+.contact_form select,
+.contact_form input[type="file"] {
+background: #efefef; margin:0 0 30px;
+border: 1px solid #afafaf;
+border-radius: 3px;
+}
+.contact_form input[type="submit"] { 
+	width:220px; height:45px;
+	font-size:14px; padding:0;
+	text-transform: capitalize;
+  border-radius:8px; }
 
 
 
