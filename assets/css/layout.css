@@ -1321,5 +1321,312 @@ border-radius: 3px;
 	text-transform: capitalize;
   border-radius:8px; }
 
+/* services ---*/
+.service_content-block {
+	width:100%; min-height:100%; float:left; margin:0 0 30px; padding:0;
+}
+.service_content-block .image_box {
+	width:100%; float:left; height:100%; margin:0; padding:0;
+}
+.service_content-block .image_box img { 
+	height: 100%; width:130%; max-width: unset; float:left;
+	 position: relative; z-index: 1; float:left;
+	object-fit: cover; object-position: center; }
+.service_content-block .content_box {
+	width:100%; float:left; position: relative; z-index: 2;
+	background:#efefef; padding:50px; margin:30px 0;
+}
+.service_content-block .content_box h4 {}
+.service_content-block .content_box p { margin:0 0 20px;}
+.service_content-block .content_box a.button {
+	padding:15px 50px;
+	font-weight:normal; background:none; border:1px solid #aeaeae;
+	border-radius: 5px; color:#525252;
+}
+
+.service_content_listing1,
+.service_content_listing2 {
+	margin-bottom: 50px;
+}
+
+.service_content-block .service_content_listing2 .image_box img {
+	margin-left:-30%; float: left;
+}
+
+@media(max-width:575px){
+	.service_content_listing1, .service_content_listing2 { margin-bottom:30px; }
+	.service_content-block .image_box img,
+	.service_content-block .service_content_listing2 .image_box img { 
+		width:100%; margin:0; }
+	.service_content-block .content_box { margin:0; padding:30px; }
+}
+
+
+/* special offers ----- */
+
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 32px;
+	border-bottom: 1px solid #333;
+	width: 100%;
+}
+
+ul.tabs li {
+	float: left;
+	margin: 0;
+	cursor: pointer;
+	padding: 0px 21px;
+	height: 31px;
+	line-height: 31px;
+	border-top: 1px solid #333;
+	border-left: 1px solid #333;
+	border-bottom: 1px solid #333;
+	background-color: #666;
+	color: #ccc;
+	overflow: hidden;
+	position: relative;
+}
+
+.tab_last { border-right: 1px solid #333; }
+
+ul.tabs li:hover {
+	background-color: #ccc;
+	color: #333;
+}
+
+ul.tabs li.active {
+	background-color: #fff;
+	color: #333;
+	border-bottom: 1px solid #fff;
+	display: block;
+}
+
+.tab_container {
+	border: 1px solid #333;
+	border-top: none;
+	clear: both;
+	float: left;
+	width: 100%;
+	background: #fff;
+}
+
+.tab_content {
+	padding: 20px;
+	display: none;
+}
+
+.tab_drawer_heading { display: none; }
+
+@media screen and (max-width: 480px) {
+	.tabs {
+		display: none;
+	}
+	.tab_drawer_heading {
+		border:1px solid #ca1e2e;
+		color: #ca1e2e; font-size:14px;
+		margin: 0;
+		padding: 5px 20px; width:100%;
+		display: block; float:left;
+		cursor: pointer;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	.d_active {
+		background-color: #ca1e2e;
+		color: #fff;
+	}
+	
+} 
+
+.special_offers_area {
+	margin:0; padding:40px 0; 
+}
+.special_offers_area ul.tabs li { 
+	text-transform:capitalize; font-size:16px;
+	border: none; outline:none;
+	background:none; color:#b2b2b2; }
+
+.special_offers_area ul.tabs li.active {
+	background:#ebebeb; color:#ce132d;
+}
+.special_offers_area .tab_container {
+	border: none; padding:0; margin:0;
+}
+.special_offers_area .tab_container .tab_content { 
+	padding:0; margin:0; 
+}
+.special_offers_area ul.tabs { margin:0 0 30px; padding:0; border:none; }
+
+.promo_thumb { width:100%; float:left; margin:0 0 30px; padding:0; }
+.promo_thumb a { float:left; display: inline-block; }
+.promo_thumb a img { float:left; border-radius: 3px; border:5px solid #b7b7b7; }
+.promo_thumb a:hover img { outline: none; }
+
+@media screen and (max-width: 480px) {
+	.tab_content { 
+		float:left; width:100%; padding:30px 10px 0 10px !important; background:#333; }
+}
+
+
+/* cusomer profile -- */
+.customer_profile-nav {
+	width: 100%; float: left; height:100%;
+	padding: 20px; margin: 0;
+	background:#f1f1f1; }
+.assistance_block {
+	width: 100%; float: left;
+	margin: 0 0 30px; padding: 10px 0 0;
+	border-top:2px solid #b6b6b6; }
+.assistance_block h4 { 
+	margin:0; padding:0;
+	color:#ce0f2e; }
+.assistance_block p {width:100%; float:left; font-size:14px; line-height: 1.4em;}
+.assistance_block a { text-decoration: none; color:#5c5a5b; }
+
+
+.profile_menu { width:100%; float:left; margin:80px 0 30px; }
+.profile_menu ul { margin:0; padding:0; list-style: none; width:100%; }
+.profile_menu ul li { 
+	line-height: 1em; 
+	float: left; width:100%; margin:0 0 20px; padding:0 10px 0 28px; position: relative; }
+.profile_menu ul li a { 
+	padding:0; margin:0; font-size:14px;
+	text-decoration: none; color:#5d5b5c; display: inline-block; }
+.profile_menu ul li a img { 
+	position: absolute; top:1px; left:0;
+	width:16px; margin:0; padding:0; float:left; }
+.profile_menu ul li a img.chat_icon { width:20px; top:0;}
+.profile_menu ul li a img.phone_icon { width:18px; top:0; left:1px; }
+.profile_menu ul li a span { 
+	display: inline-block; float:left; line-height: 1.2em;}
+.profile_menu ul li a:hover { color:#d50e2d; }
+
+@media(max-width:575px){
+	.customer_profile-nav { margin:30px 0 0; height:auto; }
+	.profile_menu { padding:0; margin:5px 0 5px 0; }
+	.profile_menu ul { width:100%; text-align: center; }
+	.profile_menu ul li { float:none; display: inline-block; width:auto; margin:0 15px; }
+	.assistance_block { display: none; }
+}
+@media(max-width:420px){
+	.profile_menu ul li { margin:0 10px; padding-right:2px; }	
+}
+
+
+
+
+.profile_image-block  { width:100%; float:left; text-align: center; }
+.profile_image {
+	width:130px; max-width:100%;
+	position:relative; padding:0; margin:0 auto;
+	border-radius:100%; text-align:center;
+	display: inline-block; 
+}
+.profile_image img.profile_image {
+	object-fit: cover; width:130px; max-height:130px; max-width:100%;
+	overflow: hidden; border-radius:120px; float:left; 
+	margin:0 0 15px; padding:5px; border:2px solid #d1102b;
+}
+.profile_image a { 
+	background:red; width:35px; height: 35px; z-index: 1001;
+	position: absolute; top:10px; right:-6px;
+	border:2px solid #fff;
+  border-radius:20px; text-align:center; line-height:1.4em; }
+.profile_image a img {
+	float: none; display: inline-block; margin:7px 0 0;
+	max-width: 100%; width:14px; }
+.profile_image h6 {
+	width:100%; float:left; margin:0; padding:0;
+	font-weight:400; line-height:1.2em;
+	text-transform: uppercase; font-size:14px; text-align: left;
+}
+
+.customer_notification_bar {
+	width:100%; margin:30px 0 20px; padding:5px 10px; background:#ffe1e1;
+	border:1px solid #ffc2ca; border-radius:5px;
+}
+.customer_notification_bar span {
+	width:18px; height:18px;line-height:1em;
+	text-align: center; padding:0; margin:0 5px 0 0;
+	display: inline-block; background:#fff; color:#da2218;
+	border-radius: 15px; border:2px solid #da2218;
+}
+
+
+.customer_profile-form { width:100%; float:left; }
+.customer_profile-form h4 { color:#cf0e29; margin:0; padding:0; }
+.customer_profile-form  h6 { 
+	color:#595959; margin:0 0 10px; padding:0;
+	text-align: left;  font-weight:600; text-transform: Capitalize; font-size:16px; }
+
+.customer_profile-form label { width:100%; float:left; margin:0 0 5px; padding:0;  }
+.customer_profile-form input[type="text"],
+.customer_profile-form input[type="tel"],
+.customer_profile-form input[type="email"],
+.customer_profile-form input[type="password"],
+.customer_profile-form textarea,
+.customer_profile-form input[type="date"],
+.customer_profile-form select,
+.customer_profile-form input[type="file"] {
+background: #efefef; height: 50px;
+border: 2px solid #afafaf;
+border-radius: 3px;
+}
+.customer_profile-form input[type="submit"] { 
+	font-size:15px; height:50px; 
+	text-transform: capitalize; margin-bottom:30px; }
+.open_passwordchanger input[type="submit"] {
+	margin:0; padding:0; min-height: unset; min-width: unset;
+	background:none; color:red; width:auto; height:auto; 
+	border:none;  text-decoration: underline;
+}
+
+
+.customer_profile-form .register_phone {
+	width: 100%; height: 48px; float: left; clear: both;
+	margin: 0 0 20px; padding: 0;
+	border-radius: 6px; overflow: hidden;
+ 	background: #efefef; border:1px solid #afafaf; 
+}
+.customer_profile-form .register_phone input { 
+	float:left; clear: none; 
+	margin:0; padding: 0; background:none;
+	border: none; border-radius:0px; }
+.customer_profile-form .register_phone input:first-child {
+	width:15%; height:30px; margin:8px 0 0 0; padding:0; 
+	float:left; text-align: center; font-weight:600;
+	background:none; color:#333; border-right:1px solid #999; 
+}
+.customer_profile-form .register_phone input:last-child {
+	width:85%; margin:0; padding:0 10px;
+}
+
+
+
+
+
+.openpasswordfield { text-decoration:underline; }
+.open_passwordchanger { 
+	margin-top:0px; margin-bottom:20px;
+	display:none; transition: all 1s; }
+.passwordOpen { display: block; }
+
+
+.passwordchange_mssage { 
+	font-size:16px; width:100%; margin:0; padding:10px; background:#f1f1f1;
+  border-radius:5px; }
+.passwordchange_mssage.success { color:#569b00; }
+.passwordchange_mssage.fail { color:#cf0e2b; }
+
+
+
+
 
 
