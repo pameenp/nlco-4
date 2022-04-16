@@ -4,6 +4,11 @@
 //     easing: 'ease-in-out-sine'
 // });
 
+
+$('.openpasswordfield').click(function(){
+    $('.open_passwordchanger').toggleClass('passwordOpen');
+});
+
 /* MENU DROP DOWN ICON ACTIONS --*/
 $('.menu-item-has-children').append(" <div class='drop-down-icon'><i class='menu-fadown fas fa-angle-down'></i></div> ");
 
@@ -93,7 +98,11 @@ $('.banner-slider .owl-carousel').owlCarousel({
     }
 });
 
+
 // GALLERY POUP  ------------
 $('.photo-gallery a').simpleLightbox();
+
+
+
 
 
