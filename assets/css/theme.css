@@ -311,9 +311,9 @@ textarea {
 input[type="submit"],
 input[type="button"],
 button.submitButton { 
-	cursor: pointer; padding:0 20px; min-height: 40px;
+	cursor: pointer; padding:0 20px; min-height: 50px;
 	font-size:1.2em; width:100%; min-width: 100px; 
-	color:#fff; text-transform:uppercase;
+	color:#fff;margin-bottom: 30px;
 	background:#ce132d; border:2px solid #ce132d; border-radius: 3px; 
 	-webkit-border-radius: 3px; -moz-border-radius: 3px;
 }

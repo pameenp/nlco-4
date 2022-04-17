@@ -1522,7 +1522,9 @@ ul.tabs li.active {
 
 
 
-.profile_image-block  { width:100%; float:left; text-align: center; }
+.profile_image-block  { 
+	width:100%; float:left; text-align: center;
+  margin:30px 0 0 0;}
 .profile_image {
 	width:130px; max-width:100%;
 	position:relative; padding:0; margin:0 auto;
@@ -1626,7 +1628,63 @@ border-radius: 3px;
 .passwordchange_mssage.fail { color:#cf0e2b; }
 
 
+/* inquiry --------------- */
+
+
+.customer_profile-inquiry_form {
+	width:100%; float:left; background:#fff;
+	clear:both;margin:50px 0 50px; padding:0; 
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 10px 19px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 19px -7px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 19px -7px rgba(0,0,0,0.75);
+}
+.customer_profile-inquiry_form h5 { 
+	width:100%; float:left; font-size:16px;
+	margin:0; padding:10px 30px; 
+  background:#d00f2c; color:#fff; }
+.customer_profile-inquiry_form .full-block {
+	padding:20px 30px 50px;
+}
 
 
 
+.block_customer-offer { 
+	width: 100%; float: left; margin:10px 0;
+	display: inline-block; text-align: center; }
+.block_customer-offer a {
+	margin:0; padding:0; line-height:1em;
+	text-decoration: none; font-size:16px;
+	 font-family: 'Frutiger LT Arabic 55 Roman'; font-weight:normal;
+	clear:both; text-align: center; display: inline-block; }
+.block_customer-offer a img { 
+	width:42px; margin:0; padding:0; 
+	text-align: center; display: inline-block; }
+
+.customer_profile-offers { width:100%; float:left; margin-bottom: 30px; }
+.customer_profile-offers .block_customer-offer { 
+	position:relative; } 
+.block_customer-offer::after {
+	content:' '; position:absolute; right:0; top:40%;
+	width:1px; height:40%; background:#858585; display:block;
+}
+.block_customer-offer.noborder::after { display: none; }
+@media(max-width:575px){
+	.block_customer-offer::after { display: none; }
+}
+
+
+.dark_forms label { width:100%; float:left; margin:0 0 5px; padding:0;  }
+.dark_forms input[type="text"],
+.dark_forms input[type="tel"],
+.dark_forms input[type="email"],
+.dark_forms input[type="password"],
+.dark_forms textarea,
+.dark_forms input[type="date"],
+.dark_forms select,
+.dark_forms input[type="file"] {
+background: #efefef; min-height: 50px;
+border: 2px solid #afafaf;
+border-radius: 3px;
+}
 
