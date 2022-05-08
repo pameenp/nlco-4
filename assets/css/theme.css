@@ -311,9 +311,9 @@ textarea {
 input[type="submit"],
 input[type="button"],
 button.submitButton { 
-	cursor: pointer; padding:0 20px; min-height: 50px;
+	cursor: pointer; padding:0 20px; min-height: 40px;
 	font-size:1.2em; width:100%; min-width: 100px; 
-	color:#fff;margin-bottom: 30px;
+	color:#fff; text-transform:uppercase;
 	background:#ce132d; border:2px solid #ce132d; border-radius: 3px; 
 	-webkit-border-radius: 3px; -moz-border-radius: 3px;
 }
@@ -437,14 +437,17 @@ ul.sub-menu li:last-child { border:none; }
 		width:100%; transition:all 1s;
 		position: fixed; top:0; right:-100vw; z-index: 2001;
 		background:rgba(0,0,0,0.9); }
-	.menu-area .top-menu { margin:15% 0; }
+	.menu-area .top-menu { 
+		margin:0; height: 100%; 
+	   display: flex;
+  justify-content: center;
+  align-items: center; }
 	.menu-area ul { margin:0; padding:0; position:relative; right:-150vw; transition:all 1s; }
 	.menu-area ul li { 
 	  width:100%; float:left; text-align: center; margin:10px 0 20px; padding:0; }
 	.menu-area ul li a { 
-		font-size:1.4em; color:#fff; }
+		font-size:1.4em; color:#fff; margin:0; }
 	.menu-area ul li a:hover { color:#333; }
-
 	.menu-area .social-menu { width:100%; float:left; margin-top:20px; text-align: center; }
 	.menu-area .social-menu ul { float:none !important; display: inline-block; }
 	.menu-area .social-menu ul li {
