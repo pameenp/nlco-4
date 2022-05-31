@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Profile</title>
+<link rel="stylesheet" href="assets/owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/css/theme.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+</head>
+<body>
+<div class="section header">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-2 col-sm-2 col-4 logoweb"><a href="#"><img src="assets/images/logo-nlco-white.svg" alt=""></a></div>
+			<div class="col-md-10 col-sm-10 col-8">
+				<div class="button-block">
+					<a href="#" class="button managebooking"><img src="assets/images/icon-car-top_white-01.svg" alt=""><span>Manage Booking</span></a>
+					<div class="dropdown_userlogin">
+						<a href="javascrip:void(0);" class="button userbutton"><img src="assets/images/icon-user-profile_white-01.svg" alt=""><span>User Login</span></a>
+						<ul class="dropdownlogin">
+							<li><a href="#">My Profile</a></li>
+							<li><a href="#">Booking</a></li>
+							<li><a href="#">Contacts</a></li>
+							<li><a href="#">Membership</a></li>
+							<li><a href="#">Inquires</a></li>
+							<li><a href="#">Log Out</a></li>
+						</ul>
+					</div>
+					<!-- <a href="#" class="button userbutton"><img src="assets/images/icon-user-profile.svg" alt=""><span>User Login</span></a> -->
+					<a href="#" class="button language-button">العربية</a>
+					<div class="menu-button"><img src="assets/images/burger-menu.svg" alt=""></div>
+				</div>
+				<div class="menu-area">
+					<div class="menu-close"><img src="assets/images/close-icon.svg" alt=""></div>
+					<div class="top-menu">
+						<ul>
+							<li><a href="#">about Us</a></li>
+							<li><a href="#">Booking</a></li>
+							<li><a href="#">our fleet</a></li>
+							<li><a href="#">branches</a></li>
+							<li><a href="#">services</a></li>
+							<li><a href="#">promotions</a></li>
+							<li><a href="#">Contact us</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- /. header -->
+<!-- /. HEADER ------->
+
+<!-- profile upload popup -->
+<div class="uploadphoto_area">
+	<div class="upload_photo-box">
+		<div class="uploadclose"><img src="assets/images/close_button.svg" alt=""></div>	
+		<h6>File Upload</h6>
+		<div class="uploadbox">
+			<img src="assets/images/icon_customer_upload.svg" alt="">
+			<label class="file">
+			  <input type="file" id="file" aria-label="File browser example">
+			  <span class="file-custom"></span>
+			</label>
+			<p>Click to choose file<br><span>Support PNG, Jpeg format</span></p>
+		</div>
+		<div class="upload_filename">Profile.jpg</div>
+		<div class="upload_buttons">
+			<input type="submit" class="send_upload-image" value="Upload">
+			<input type="submit" class="cancel_upload-image" value="Upload">
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- profile upload popup -->
+
+<div class="section">
+	<div class="container">
+		<div class="row align-items-stretch">
+			<div class="col-md-3 col-sm-4 col-12">
+				<div class="profile_nav">
+					<div class="profile_image-block">
+						<div class="profile_image">
+							<img class="profile_image" src="assets/images/profilepic.png" alt="">
+							<a href="#"><img src="assets/images/profile_edit-fill.svg" alt=""></a>
+							<h6>Muhammad Salah</h6>
+						</div>
+						<div class="full-block"><a href="#" class="logout">Log Out</a></div>
+					</div>
+					<div class="customer_profile_menu">
+						<ul>
+							<li><a href="customer-profile-new_dashboard.html"><span><?xml version="1.0" ?><svg viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h48v48H0z" fill="none"/><path d="M6 26h16V6H6v20zm0 16h16V30H6v12zm20 0h16V22H26v20zm0-36v12h16V6H26z"/></svg></span><span>Dashboard</span></a></li>
+							<li><a href="customer-profile-new.html"><span><?xml version="1.0" ?><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title/><circle cx="12" cy="8" fill="#464646" r="4"/><path d="M20,19v1a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V19a6,6,0,0,1,6-6h4A6,6,0,0,1,20,19Z" fill="#464646"/></svg></span><span>Profile</span></a></li>
+							<li><a href="#"><span><?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 64 64" id="Layer_1" version="1.1" viewBox="0 0 64 64" width="64px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M38.501,7.69c-10.944,0-19.815,8.871-19.815,19.816c0,10.859,8.736,19.673,19.562,19.809v8.43l13.54-13.539   c4.01-3.626,6.53-8.869,6.53-14.7C58.316,16.561,49.444,7.69,38.501,7.69z"/><path d="M21.882,46.654v-2.405l-1.975-0.024c-5.638-0.07-10.224-4.714-10.224-10.353c0-4.645,3.073-8.585,7.292-9.894   c0.245-1.498,0.644-2.945,1.179-4.325C11.128,20.58,5.683,26.595,5.683,33.871c0,7.146,5.315,13.141,12.199,14.19v8.248   l9.871-9.871c-1.181-0.676-2.292-1.456-3.323-2.332L21.882,46.654z"/></g></svg></span><span>Inquiries</span></a></li>
+							<li><a href="customer-profile-new_booking.html" class="activem"><span><?xml version="1.0" ?><svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path class="heroicon-ui" d="M17 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2h2V3a1 1 0 1 1 2 0v1h6V3a1 1 0 0 1 2 0v1zm-2 2H9v1a1 1 0 1 1-2 0V6H5v4h14V6h-2v1a1 1 0 0 1-2 0V6zm4 6H5v8h14v-8z"/></svg></span><span>Booking</span></a></li>
+						</ul>
+					</div>
+					<div class="customer_profile_menu" style="border-top:2px solid #b6b6b6;">
+						<ul>
+							<li><a href="customer_profile.html"><span><?xml version="1.0" ?><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title/><path d="M21.32,10.05l-1.74-.58a8,8,0,0,0-.43-1.05L20,6.79a1,1,0,0,0-.19-1.15L18.36,4.22A1,1,0,0,0,17.21,4l-1.63.82a8,8,0,0,0-1.05-.43L14,2.68A1,1,0,0,0,13,2H11a1,1,0,0,0-.95.68L9.47,4.42a8,8,0,0,0-1.05.43L6.79,4a1,1,0,0,0-1.15.19L4.22,5.64A1,1,0,0,0,4,6.79l.82,1.63a8,8,0,0,0-.43,1.05l-1.74.58A1,1,0,0,0,2,11v2a1,1,0,0,0,.68.95l1.74.58a8,8,0,0,0,.43,1.05L4,17.21a1,1,0,0,0,.19,1.15l1.42,1.42A1,1,0,0,0,6.79,20l1.63-.82a8,8,0,0,0,1.05.43l.58,1.74A1,1,0,0,0,11,22h2a1,1,0,0,0,.95-.68l.58-1.74a8,8,0,0,0,1.05-.43l1.63.82a1,1,0,0,0,1.15-.19l1.42-1.42A1,1,0,0,0,20,17.21l-.82-1.63a8,8,0,0,0,.43-1.05L21.32,14A1,1,0,0,0,22,13V11A1,1,0,0,0,21.32,10.05ZM12,16a4,4,0,1,1,4-4A4,4,0,0,1,12,16Z" fill="#464646"/></svg></span><span>Settings</span></a></li>
+							<li><a href="customer_profile-new.html"><span><?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M345.1,77.1C317.6,56.2,286.6,49,247.3,49c-29.8,0-55.3,6.1-75.5,19.7C142,89,128,123.1,128,177h76.8   c0-14.4-1.4-29.9,7-43.2c8.4-13.3,20.1-23.5,40.2-23.5c20.4,0,30.9,5.9,40.8,18.1c8.4,10.4,11.6,22.8,11.6,36   c0,11.4-5.8,21.9-12.7,31.4c-3.8,5.6-8.8,10.6-15.1,15.4c0,0-41.5,24.7-56.1,48.1c-10.9,17.4-14.8,39.2-15.7,65.3   c-0.1,1.9,0.6,5.8,7.2,5.8c6.5,0,56,0,61.8,0c5.8,0,7-4.4,7.1-6.2c0.4-9.5,1.6-24.1,3.3-29.6c3.3-10.4,9.7-19.5,19.7-27.3   l20.7-14.3c18.7-14.6,33.6-26.5,40.2-35.9c11.3-15.4,19.2-34.4,19.2-56.9C384,123.5,370.5,96.4,345.1,77.1z M242,370.2   c-25.9-0.8-47.3,17.2-48.2,45.3c-0.8,28.2,19.5,46.7,45.5,47.5c27,0.8,47.9-16.6,48.7-44.7C288.8,390.2,269,371,242,370.2z"/></g></svg></span><span>Help</span></a></li>
+						</ul>
+					</div>
+				</div><!-- /.customer profile nav -->
+			</div>
+			<div class="col-md-9 col-sm-8 col-12">
+				
+<div class="customer_profile-form">
+	<div class="full-block">
+		<div class="profileheading"><span><img src="assets/images/profle_profil.svg" alt=""></span><span>Manage Booking</span></div>
+	</div>
+	<div class="full-block">
+		<div class="nwbooking_history-table">
+			<table cellpadding="0" cellspacing="0" class="table">
+				<tr>
+					<th>Reff</th>
+					<th>From</th>
+					<th>To</th>
+					<th>Pick Up</th>
+					<th>Return</th>
+					<th></th>
+				</tr>
+				<tr>
+					<td>nlco-jk1982648</td>
+					<td>Jan 10, 2022</td>
+					<td>Jan 12, 2022</td>
+					<td>delivery</td>
+					<td>delivery</td>
+					<td><a href="#" class="editbutton"><img src="assets/images/profile_edit-fill.svg" alt="">Edit</a></td>
+				</tr>
+				<tr>
+					<td>nlco-jk1982648</td>
+					<td>Jan 10, 2022</td>
+					<td>Jan 12, 2022</td>
+					<td>delivery</td>
+					<td>delivery</td>
+					<td><a href="#" class="editbutton"><img src="assets/images/profile_edit-fill.svg" alt="">Edit</a></td>
+				</tr>
+				<tr>
+					<td>nlco-jk1982648</td>
+					<td>Jan 10, 2022</td>
+					<td>Jan 12, 2022</td>
+					<td>delivery</td>
+					<td>delivery</td>
+					<td><a href="#" class="canceleditbutton">Closed</a></td>
+				</tr>
+			</table>
+		</div>
+
+
+
+
+	</div>
+	
+
+
+
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+<!-- /.FOOTER ------->
+<div class="section footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="footer-block">
+					<div class="footer-menu">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Booking</a></li>
+							<li><a href="#">our fleets</a></li>
+							<li><a href="#">Branches</a></li>
+							<li><a href="#">promotion</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="full-block">
+						<a href="tel:+966594678252" class="phone-bottom">+966 59 467 8252</a>
+						<div class="social-menu"><ul>
+							<li><a href="#"><img src="assets/images/social-icon-facebook.svg" alt=""></a></li>
+							<li><a href="#"><img src="assets/images/social-icon-instagram.svg" alt=""></a></li>
+							<li><a href="#"><img src="assets/images/social-icon-whatsapp.svg" alt=""></a></li>
+						</ul></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="section footer-text">
+	<div class="container">
+	<div class="row">
+		<div class="col-12"><p>Copyright © 2021-2022 nlco – Saudi Arabia. All rights reserved.</p></div>
+	</div>
+	</div>
+</div>
+
+<script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/owlcarousel/owl.carousel.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script type="text/javascript">
+        function rangeSlide(value) {
+            document.getElementById('rangeValue').innerHTML = value;
+        }
+    </script>
+</body>
+</html>
